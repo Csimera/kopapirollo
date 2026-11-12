@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 70vw;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+div{
+    display: grid;
+    text-align: center;
+}
+
+.gombok{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#jatekos, #gep{
+    border:solid 1px black;
+    border-radius: 15px;
+}
